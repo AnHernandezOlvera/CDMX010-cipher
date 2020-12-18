@@ -8,16 +8,42 @@
   <body>
     <div id="root">
       <section class="cipher-area">
+        <div class="intro">
+          <h1 class="title">Mensajes secretos</h1>
+          <p>Ayuda a Adelaida a enviar mensajes secretos a Barbijo sin que las gaviotas puedan entender su contenido.</p>
+        </div>
+        
+        
         <div class="back-left">
           <form action="" id="" class="form-cipher">
+            <h2>Adelaida</h2>
+            <div>
+              <span>Para enviar un mensaje secreto debes:</span>
+              <ol>
+                
+                <li>Ingresar un mensaje en el recuadro de la izquierda </li>
+                <li>Ingresar un número para cifrar </li>
+                <li>Dar click en el botón cifrar</li>
+              </ol>
+            </div>
             <textarea name="" id="message" cols="30" rows="10"></textarea>
             <input type="number" id="offset">
-            <input id="buttonEncode" type="button" value="cifrar"> 
+            <input id="buttonEncode" type="button" value="cifrar" class="button"> 
           </form>
         </div>
         <div class="back-right">
+          <h2>Barbijo</h2>
+          <div>
+            <span>Barbijo recibirá el mensaje de Adelaida y para poder leer el mensaje debes:</span>
+            <ol>
+              <li>Asegúrate que el número seleccionado al cifrar el mensaje sea el mismo.</li>
+              <li>Dar click en el botón descifrar</li>
+              
+            </ol>
+          </div>
+          
           <textarea name="" id="printcipher" cols="30" rows="10"></textarea>
-          <input id="buttonDecode" type="button" value="descifrar"> 
+          <input id="buttonDecode" type="button" value="descifrar" class="button"> 
         </div>
       </section>
         

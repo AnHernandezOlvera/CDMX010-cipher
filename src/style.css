@@ -1,15 +1,26 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+.title{
+    padding: 0;
+    margin: 0;
+}
+.intro{
+    width: 50%;
+    margin-left: 25%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    color:#ec407a;
+    text-align: center;
 }
 #printcipher{
-    margin-top: 50%;
     padding: 5px;
     margin-left: 10%;
     width: 80%;
 }
 .form-cipher{
-    margin-top: 50%;
     width: 100%;
     padding-left: 10%;
 }
@@ -22,11 +33,12 @@ body{
     height: 100vh;
     background: url(./img/fondo.jpg) no-repeat center;
     background-size: cover;
+    color: #1068E5;
     
 }
 .back-left{
     width: 50%;
-    height: 100%;
+    height: 80%;
     background: url(./img/f_pinguino-01.png) no-repeat right;
     background-size: contain;
     display: block;
@@ -34,7 +46,7 @@ body{
 }
 .back-right{
     width: 50%;
-    height: 100%;
+    height: 80%;
     background: url(/img/f_pinguino-02.png)no-repeat right;
     background-size: contain;
     display: block;
@@ -48,4 +60,13 @@ body{
 }
 #buttonDecode{
     margin-left: 10%;
+}
+.button{
+    color: #fff;
+    background-color: #ec407a;
+    text-transform: uppercase;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+
 }
