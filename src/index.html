@@ -1,13 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
   </head>
   <body>
     <div id="root">
-      <h1>Hello world!</h1>
+      <section class="cipher-area">
+        <div class="back-left">
+          <form action="" id="" class="form-cipher">
+            <textarea name="" id="message" cols="30" rows="10"></textarea>
+            <input type="number" id="offset">
+            <input id="buttonEncode" type="button" value="cifrar"> 
+          </form>
+        </div>
+        <div class="back-right">
+          <textarea name="" id="printcipher" cols="30" rows="10"></textarea>
+          <input id="buttonDecode" type="button" value="descifrar"> 
+        </div>
+      </section>
+        
     </div>
     <script src="index.js" type="module"></script>
   </body>

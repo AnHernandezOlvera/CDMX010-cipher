@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#printcipher{
+    margin-top: 50%;
+    padding: 5px;
+    margin-left: 10%;
+    width: 80%;
+}
+.form-cipher{
+    margin-top: 50%;
+    width: 100%;
+    padding-left: 10%;
+}
+.form-cipher textarea{
+    width: 80%;
+    
+}
+.cipher-area{
+    width: 100vw;
+    height: 100vh;
+    background: url(./img/fondo.jpg) no-repeat center;
+    background-size: cover;
+    
+}
+.back-left{
+    width: 50%;
+    height: 100%;
+    background: url(./img/f_pinguino-01.png) no-repeat right;
+    background-size: contain;
+    display: block;
+    float: left;
+}
+.back-right{
+    width: 50%;
+    height: 100%;
+    background: url(/img/f_pinguino-02.png)no-repeat right;
+    background-size: contain;
+    display: block;
+    float: left;
+}
+#cipher{
+    width: 80%;
+    height: 100px;
+    background-color: #fff;
+    margin-top: 30%;
+}
+#buttonDecode{
+    margin-left: 10%;
+}
